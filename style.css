@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playpen+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Playpen Sans";
+    height: 250vh;
+    background: #fca6a6ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background: #a5cff4ee;
+    padding: 60px;
+    width: 550px;
+    max-width: calc(100%-60px);
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+form button{
+    width: 100%;
+    padding: 20px;
+    color: #070707ee;
+    background: #f67a7aee;
+    border-radius: 5px;
+    border: no;
+    font-size: 18px;
+    cursor: pointer;
+    letter-spacing: 0.5cm;
+    text-align-last: center;
+    
+}
+textarea{
+    background-color: #e3ebf2ee;
+    
+}
